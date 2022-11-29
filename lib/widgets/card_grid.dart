@@ -27,6 +27,7 @@ class CardGrid extends StatelessWidget {
   Widget build(BuildContext context) {
     final width = MediaQuery.of(context).size.width;
     return Scrollbar(
+      thumbVisibility: true,
       child: SingleChildScrollView(
         child: Column(
           mainAxisSize: MainAxisSize.min,
@@ -38,6 +39,7 @@ class CardGrid extends StatelessWidget {
             ),
             MasonryGridView.count(
               shrinkWrap: true,
+              primary: false,
               padding: const EdgeInsets.all(20.0),
               crossAxisCount: _getCrossAxisCount(width),
               mainAxisSpacing: 10,
@@ -57,6 +59,7 @@ class CardGrid extends StatelessWidget {
             ),
             MasonryGridView.count(
               shrinkWrap: true,
+              primary: false,
               padding: const EdgeInsets.all(20.0),
               crossAxisCount: 3,
               mainAxisSpacing: 10,
