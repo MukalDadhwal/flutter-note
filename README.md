@@ -2,7 +2,7 @@
 
 It is build on top of flutter, firebase and dart. Users can create and store their notes which can include text, tasks, code snippets, links and bullet points.The notes are stored inside firebase firestore. Authentication is provided using google oauth client and firebase auth.
 
-visit this [link](https://mukal-flutternote.web.app/#/) to visit the live hosted website(hosted using firebase hosting)
+visit this [link](https://mukal-flutternote.web.app/#/) to use the live hosted website(hosted using firebase hosting)
 
 ## Libraries Used
 ***
